@@ -1,0 +1,8 @@
+1) As the hidden nodes increase, the accuracy of the model increases up to 5 hidden nodes. As the number  of hidden nodes increase further, the accuracy of the model seems to decrease, but with a smaller gradient than it increased from 1-3 hidden layers.
+2)Initial Increase: Adding more hidden units initially improves accuracy significantly because the network can learn more complex patterns and features from the data.
+
+Saturation: Beyond a certain point (around 3-5 hidden units in this case), the accuracy gains diminish, indicating that the network has enough capacity to capture the data's patterns, and adding more units doesn't provide substantial benefits.
+
+Overfitting Risks: Slight decreases in accuracy at higher numbers of hidden units (e.g., 20 units) suggest potential overfitting, where the model captures noise rather than useful patterns.
+
+Stabilization: The accuracy stabilizes around a high value (90-91%), showing that the model reaches an optimal complexity with a relatively small number of hidden units, balancing learning capacity and generalization.
